@@ -1,5 +1,16 @@
+![Banner](./assets/gpt-null-banner-black.png)
 # Iris Flower Dataset Neural Network 
+
+![top language](https://img.shields.io/github/languages/top/gpt-null/template)
+![code size](https://img.shields.io/github/languages/code-size/gpt-null/template)
+![last commit](https://img.shields.io/github/last-commit/gpt-null/template)
+![issues](https://img.shields.io/github/issues/gpt-null/template)
+![contributors](https://img.shields.io/github/contributors/gpt-null/template)
+![License](https://img.shields.io/github/license/gpt-null/template)
+
 ##### **A Statquest implementation of [Neural Networks Pt. 4: Multiple Inputs and Outputs](https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)** see the video to better understand the process of this repo
+
+## Description
 This project explores the underlying mathematics of neural networks by implementing a simple classifier for the Iris dataset with manually set weights and biases. See each calculation with Linear and ReLU to see the math behind the model.
 
 ![alt text](assets/iris_dataset_image.png)
@@ -67,3 +78,31 @@ This implementation demonstrates:
 - How a simple network with just 2 inputs and 2 hidden neurons can effectively separate the Iris classes
 - The mathematical operations underlying "black box" neural networks
 
+
+
+
+### LICENSE
+
+```markdown
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
