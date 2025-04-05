@@ -1,0 +1,69 @@
+# Iris Flower Dataset Neural Network 
+##### **A Statquest implementation of [Neural Networks Pt. 4: Multiple Inputs and Outputs](https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)** see the video to better understand the process of this repo
+This project explores the underlying mathematics of neural networks by implementing a simple classifier for the Iris dataset with manually set weights and biases. See each calculation with Linear and ReLU to see the math behind the model.
+
+![alt text](assets/iris_dataset_image.png)
+
+## TLDR
+**A custom Neural network but instead of traning it i manually set the parameters to see the data flow through the model to see the underlying math.**
+
+## Project Overview
+
+Rather than allowing a neural network to learn weights through training, this project:
+- Sets weights and biases manually
+- Implements custom linear transformations and ReLU activation functions
+- Visualizes decision boundaries in 3D space
+- Demonstrates how each component affects the final classification results
+
+## Neural Network Architecture
+
+The model has a simple architecture:
+- **Input Layer**: 2 nodes (petal_width, sepal_width)
+- **Hidden Layer**: 2 nodes with ReLU activation
+- **Output Layer**: 3 nodes (one for each Iris species: Setosa, Versicolor, Virginica)
+
+![alt text](assets/output-onlinepngtools.png)
+
+## Custom Implementation Details
+
+The neural network uses:
+
+1. **Manual Weight Initialization**:
+   ```python
+   # First layer weights and biases
+   weights1 = [[-2.5, 0.6],
+               [-1.5, 0.4]]
+   bias1 = [1.6, 0.7]
+   
+   # Second layer weights and biases
+   weights2 = [[-0.1, 1.5],
+               [2.4, -5.2],
+               [-2.2, 3.7]]
+   bias2 = [0.0, 0.0, 1.0]
+   ```
+
+2. **Custom Linear Transformation**:
+   - Matrix multiplication of inputs with weights
+   - Addition of bias term
+   
+3. **Custom ReLU Activation**:
+   - Element-wise function that returns max(0, x)
+   - Implemented manually to show the computation
+
+## Visualizations
+
+The project includes comprehensive 3D visualizations showing:
+- Probability surfaces for each class
+- Decision boundaries between the three species
+- How the feature space is divided based on the manually selected weights
+
+![assets/](assets/output.png)
+
+## Key Insights
+
+This implementation demonstrates:
+- How matrix operations and activation functions transform data through the network
+- The impact of specific weight values on classification boundaries
+- How a simple network with just 2 inputs and 2 hidden neurons can effectively separate the Iris classes
+- The mathematical operations underlying "black box" neural networks
+
