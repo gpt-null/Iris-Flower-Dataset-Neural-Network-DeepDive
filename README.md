@@ -1,4 +1,3 @@
-![Banner](./assets/gpt-null-banner-black.png)
 # Iris Flower Dataset Neural Network 
 
 ![top language](https://img.shields.io/github/languages/top/gpt-null/template)
