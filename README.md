@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/github/license/gpt-null/template)
 
 ##### **A Statquest implementation of [Neural Networks Pt. 4: Multiple Inputs and Outputs](https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9)** see the video to better understand the process of this repo
-
+##### **Also a implementation of [Neural Networks Part 5: ArgMax and SoftMax](https://youtu.be/KpKog-L9veg?si=ue6ZtYQ0npXg6O7t)**
 ## Description
 This project explores the underlying mathematics of neural networks by implementing a simple classifier for the Iris dataset with manually set weights and biases. See each calculation with Linear and ReLU to see the math behind the model.
 
